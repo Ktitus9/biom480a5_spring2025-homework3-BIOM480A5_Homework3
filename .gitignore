@@ -1,0 +1,15 @@
+
+.DS_Store
+*/.DS_Store
+.github/tag/__pycache__/*
+.ipynb_checkpoints/*
+data3Complementary.txt
+Homework3_Solution.ipynb
+Hwk3Answers.pkl
+Hwk3Data.pkl
+lots_of_potatos.txt
+Homework3_ProblemSetBak.ipynb
+data3.txt
+*.pyc
+asdqe3.py alias
+TEMP.py

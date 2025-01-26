@@ -1,0 +1,86 @@
+{
+  "tests": [
+    {
+      "name": "run notebook",
+      "setup": "pip install jupyterlab numpy matplotlib pyarrow pandas scrapy pytest",
+      "run": "jupyter execute Homework3_ProblemSet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q1",
+      "run": "pytest -k test1 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q2",
+      "run": "pytest -k test2 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q3",
+      "run": "pytest -k test3 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q4",
+      "run": "pytest -k test4 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q5",
+      "run": "pytest -k test5 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q6",
+      "run": "pytest -k test6 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Q7",
+      "run": "pytest -k test7 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Q8",
+      "run": "pytest -k test8 asdqe3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
